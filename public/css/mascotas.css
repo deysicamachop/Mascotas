@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ----------HEADER---------- */
+.header {
+    display: flex;
+    background: rgba(173, 216, 230, 0.438);
+    position: relative;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+}
+
+/* ----------MENU DE NAVEGACION---------- */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(173, 216, 230, 0.438);
+}
+
+.menu ul {
+    display: inline-flex;
+    padding: 20px 0; /*espacio entre el header y el contenido del menu */
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 15px; /*espacio entre las opciones*/
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.menu ul li:hover {
+    font-weight: bolder;
+}
+
+/* ----------BARRA DE BUSQUEDA---------- */
+.container {
+    background-color: lavenderblush ;
+    background-image: url(../images/krista-mangulsone-9gz3wfHr65U-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.ct {
+    /* background-color: rgba(255, 160, 122, 0.541); */
+    color: white;
+    padding: 30px;
+}
+
+.ct h3 {
+    /* background-color: azure; */
+    padding-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+
+#list {
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    font-size: larger;
+}
+
+#list:hover {
+    font-weight: bold;
+}
+
+.boton-barra {
+    border:none;
+    height: 100%;
+}
+
+/* ----------TIPS DE ADOPCION(TEXTO)---------- */
+
+.container-tips {
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+.header-tips {
+    padding:  15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contenido-tips{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column-tips {
+    flex: 1;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 40px;
+    background-color: lightgray;
+    transition: 0.3s;
+    line-height: 1.8rem;
+    text-align: justify;
+    border: none;
+}
+
+.col-images-tips {
+    justify-content: center;
+    width: 80%;
+}
+
+.img-col-tips {
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------FOOTER---------- */
+.footer {
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.438);
+    justify-content: center;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-news {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    margin-bottom: 5px; /*espacio entre el titulo de la columna y los liks*/
+    margin-top: 5px; /*espacio entre el inicio del footer y el titulo de las columnas*/
+}
+
+.col-info a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.icons i {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* ----------FOOTER 2---------- */
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+    padding: 15px;
+}
+
+/* -----------------------------------------------------SOBRE NOSOTROS------------------------------------------------- */
+.container-nosotros {
+    background-color: lightsalmon;
+}
+
+.header-nosotros {
+    padding:  15px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.contenido-nosotros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column-nosotros {
+    flex: 1;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 40px;
+    background-color: lightgray;
+    transition: 0.3s;
+    line-height: 1.8rem;
+    text-align: justify;
+    border: none;
+}
+
+.col-images-nosotros {
+    justify-content: center;
+    width: 80%;
+}
+
+.img-col-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-nosotros {
+    padding-left: 20px;
+}
+
+/* -----------------------------------------------------ADOPTAR UNA MASCOTA------------------------------------------------- */
+
+.banner-adoptar {
+    background-color: lightcoral;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-adoptar {
+    background-color: lightsalmon;
+    padding: 50px 150px;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.info-adoptar h2 {
+    padding: 10px 0;
+}
+.info-adoptar h3 {
+    padding: 5px 0;
+}
+.banner-img-adoptar {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* -----------------------------------------------------DETALLES DE LAS MASCOTAS------------------------------------------------- */
+.container-detallesM {
+    background-color: burlywood;
+}
+
+.header-detallesM {
+    padding:  15px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.contenido-detallesM{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column-detallesM {
+    flex: 1;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 40px;
+    background-color: lightgray;
+    transition: 0.3s;
+    line-height: 1.8rem;
+    text-align: justify;
+    border: none;
+}
+
+.col-images-detallesM {
+    justify-content: center;
+    width: 80%;
+}
+
+.img-col-detallesM {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-detallesM {
+    padding-left: 20px;
+}
+
+
+/*RESPONSIVE DESIGN*/
+@media (max-width:761px){ /*pantallas menores a 761px*/
+    /* ----------HEADER---------- */
+    .header{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    .header-text h2 {
+        font-size: 20px;
+    }
+    /* ----------MENU DE NAVEGACION---------- */
+    .menu ul {
+        text-align: center;
+    }
+    /* ----------BARRA DE BUSQUEDA---------- */
+    .ct{
+        color: black;
+        text-align: center;
+    }
+    .search-bar {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #list {
+        width: 220px;
+        padding: 10px;
+        margin: 10px 40px;
+    }
+      /* ----------TIPS DE ADOPCION(TEXTO)---------- */
+      .column-tips h2 {
+        text-align: center;
+    }
+
+    .column-tips {
+        padding: 55px;
+    }
+
+    .contenido-tips{
+        display: block;
+    }
+
+    /*------ADOPTAR UNA MASCOTA------*/
+.banner-img-adoptar {
+    display: none;
+}
+
+.info-adoptar {
+    background-color: burlywood;
+    padding: 50px;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+/*------SOBRE NOSOTROS------*/
+.header-nosotros {
+    text-align: center;
+}
+
+.contenido-nosotros{
+    display: block;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+/*------INICIAR SESION------*/
+.card-front-sesion, .card-back-sesion {
+    background-image: none;
+}
+}
+
+@media (max-width:512px) { /*pantallas menores a 512px*/
+    /* ----------MENU DE NAVEGACION---------- */
+    .menu ul {
+        display: block;
+        text-align: center;
+        padding: 2px;
+    }
+}
+
+@media (max-width:480px) {
+    #list {
+        width: 150px;
+        margin: 11px;
+    }
+}
+
