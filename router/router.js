@@ -3,7 +3,7 @@
 const { Router } = require ("express");
 const router = new Router();
 
-const mysql = require('mysql');
+/* const mysql = require('mysql');
 
 // hago la conexion con mi bs (esto luego lo llevo a otro archivo)
 
@@ -17,7 +17,7 @@ const conexion = mysql.createConnection({
 conexion.connect((err) => {
     if(err) throw err;
     console.log("CONEXION ESTABLECIDA");
-})
+}) */
 
 
 //ACA ME MUESTRA TODAS LAS MASCOTAS DISPONIBLES PARA ADOPTAR
